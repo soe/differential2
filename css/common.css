@@ -1,0 +1,78 @@
+@charset "utf-8";
+
+/** reset ----------------------------------------------------------------**/
+
+body,div,dl,dt,dd,ul,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { margin:0; padding:0; }
+table { border-collapse:collapse; border-spacing:0; }
+fieldset,img { border:0; }
+address,caption,cite,code,dfn,em,strong,th,var { font-style:normal; font-weight:normal; }
+ol,ul { list-style:none; }
+caption,th { text-align:left; }
+h1,h2,h3,h4,h5,h6 { font-size:100%; font-weight:normal; }
+q:before,q:after { content:''; }
+abbr,acronym { border:0; }
+img { vertical-align:bottom; }
+
+/** font関連 ----------------------------------------------------------------**/
+
+body{
+  font-size:13px;
+  line-height:1;
+  font-family: 'Open Sans', Verdana, Helvetica, "ＭＳ Ｐゴシック", "ヒラギノ角ゴ Pro W3", sans-serif;
+}
+
+input:not([type]),
+input[type="color"],
+input[type="date"],
+input[type="datetime"],
+input[type="datetime-local"],
+input[type="email"],
+input[type="month"],
+input[type="number"],
+input[type="password"],
+input[type="tel"],
+input[type="text"],
+input[type="time"],
+input[type="url"],
+input[type="week"] {
+	font-family: 'Open Sans', sans-serif;
+  -webkit-transition:border 0.3s;
+     -moz-transition:border 0.3s;
+          transition:border 0.3s;
+	border:1px solid;
+	border-color:#666 #ccc #ccc #ccc;
+	outline:none;
+}
+
+input:not([type]):focus,
+input[type="color"]:focus,
+input[type="date"]:focus,
+input[type="datetime"]:focus,
+input[type="datetime-local"]:focus,
+input[type="email"]:focus,
+input[type="month"]:focus,
+input[type="number"]:focus,
+input[type="password"]:focus,
+input[type="tel"]:focus,
+input[type="text"]:focus,
+input[type="time"]:focus,
+input[type="url"]:focus,
+input[type="week"]:focus {
+  -webkit-transition:border 0.3s;
+     -moz-transition:border 0.3s;
+          transition:border 0.3s;
+  border:1px solid #387097;
+}
+
+label { cursor:pointer; }
+
+/** clearfix ----------------------------------------------------------------**/
+
+.clearfix { zoom:1; }
+.clearfix:after { content:"."; display:block; height:0px; clear:both; visibility:hidden; }
+
+.cmc-header-title {
+ font-size: 20px;
+ font-weight: bold;
+ margin: 10px 0;
+}
