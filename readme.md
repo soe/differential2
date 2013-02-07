@@ -6,7 +6,7 @@ The _#diffview_ height is set by css
 
      #diffview { height: 600px; }
 
-If there are too few line to take up 600px, the _#diffview_ is auto-adjusted. If there are too many line to fit into 600px then scroll is enabled.
+If there are too few lines to take up 600px, the _#diffview_ is auto-adjusted. If there are too many lines to fit into 600px then scroll is enabled.
 
 ### Scroll indicator
 
@@ -14,7 +14,7 @@ I have added in the scroll indicator to help user navigate through a long list o
 
 ### Scroll logic tweak for performance
 
-Logic for scroll is tweaked a bit for performance.
+Scroll logic is tweaked for performance.
 
 ### Links
 
