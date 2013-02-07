@@ -1,5 +1,5 @@
 {
 	"name": "New Text",
 	"timestamp": "06212012",
-	"source": "The Nameless is the origin of Heaven and Earth;\nThe named is the mother of all things.\n\nTherefore let there always be non-being,\nso we may see their subtlety,\nAnd let there always be being,\nso we may see their.\nThe two are the same,\nBut after they are produced,\nthey have different names.\nThey both may be called deep and profound.\nDeeper and more profound,\nThe door of all subtleties!"
+	"source": "The Nameless is the origin of Heaven and Earth;\nThe named is the mother of all things.\n\nTherefore let there always be non-being,\nso we may see their subtlety,\nAnd let there always be being,\nso we may see their.\nThe two are the same,\nBut after they are produced,\nthey have different names.\nThey both may be called deep and profound.\nDeeper and more profound,\nThe door of all subtleties!\noh oh, sexy lady!\noppa ganam style!"
 }

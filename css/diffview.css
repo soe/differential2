@@ -116,16 +116,29 @@ table.diff_lines tbody td {
   position: absolute;
   top: 0;
   right: 0;
-  overflow: hidden;
-  box-sizing: border-box;
+  /*overflow: hidden;
+  box-sizing: border-box;*/
   width: 40px;
   height: 100%;
   background-color: #aaa;
 }
 
 .diff_overview .diff_overview_line {
-  position: absolute;
+  position: relative;
   width: inherit;
   min-height: 5px;
   left: 0;
+}
+
+#diff_overview_indicator {
+  width: 110%;
+  height: 8px;
+  background-color: yellow;
+  opacity: 0.35;
+
+  position: absolute;
+  left: 0;
+  top: 0%;
+
+  box-shadow: 1px 2px 2px #000;
 }
